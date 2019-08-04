@@ -7,7 +7,8 @@ body{
     background-color:black;
 }
 .piano{
-    margin-top: 230px;
+    margin-top: 200px;
+    margin-left: 150px;
     height: 7vw;
 }
 .agpiano{
@@ -18,211 +19,115 @@ body{
     box-shadow: inset 0px 0px 30px 20px white;
     border: 1px solid white;
     border-radius: 4px;
+    outline: none;
+}
+
+.agpiano.CSS{
+    box-shadow: inset 0px 0px 30px 20px rgba(13, 240, 236, .5);
+    color: rgb(100,87,0);
 }
 p{
     margin-top: 140px;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1vw;
 }
-.agpiano:active{
-    box-shadow: inset 0px 0px 30px 20px rgb(13, 240, 236);
-}
-.f5-key.active{
-    background-color: red;
+#none{
+    opacity: 0;
 }
 
-.qarapiano, .qarapiano02,.qarapiano03,.qarapiano04,.qarapiano05,.qarapiano06,.qarapiano07,
-.qarapiano08,.qarapiano09,.qarapiano10,.qarapiano11,.qarapiano12,.qarapiano13,.qarapiano14
-,.qarapiano15,.qarapiano16,.qarapiano17,.qarapiano18,.qarapiano19,.qarapiano20,.qarapiano21
-,.qarapiano22,.qarapiano23,.qarapiano24,.qarapiano25{
+
+
+.qarapiano{
     position: absolute;
     height: 10vw;
     width: 1.8vw;
-    z-index: 99;
     margin-top: 0;
     margin-left: -1213px;
     box-shadow: inset 0px 0 px 10px 5px black;
     background: linear-gradient(to bottom, black 0%,gray 100%);
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
 }
+
+
+.Q1-key{
+    margin-left: -894px;
+}
+.qarapiano.Active{
+    background: rgb(8, 117, 115);
+    
+}
+
+.Q2-key{
+    margin-left: -859px;
+}
+
+.Q3-key{
+    margin-left: -789px;
+}
+
+.Q44-key{
+    margin-left: -753px;
+}
+.Q5-key{
+    margin-left: -718px;
+}
+
+.Q6-key{
+    margin-left: -648px;
+}
+
+.Q7-key{
+    margin-left: -611px;
+}
+
+.Q8-key{
+    margin-left: -540px;
+}
+
+.Q9-key{
+    margin-left: -504px;
+}
+
+.Q10-key{
+    margin-left: -469px;
+}
+
+.Q11-key{
+    margin-left: -399px;
+}
+
+.Q12-key{
+    margin-left: -365px;
+}
+
+.Q13-key{
+    margin-left: -294px;
+}
+
+.Q14-key{
+    margin-left: -259px;
+}
+
+.Q15-key{
+    margin-left: -224px;
+}
+
+.Q16-key{
+    margin-left: -153px;
+}
+
+.Q17-key{
+    margin-left: -116px;
+}
+
+
 div{
     margin-top: 60px;
     font-family: 'Nanum Gothic', sans-serif;
     color: antiquewhite;
     
-}
-.qarapiano:active {
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano02 {
-    margin-left: -1178px;
-}
-.qarapiano02:active {
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano03{
-    margin-left: -1107px;
-}
-.qarapiano03:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano04{
-    margin-left: -1072px;
-}
-.qarapiano04:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano05{
-    margin-left: -1035px;
-}
-.qarapiano05:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano06{
-    margin-left: -964px;
-}
-.qarapiano06:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano07{
-    margin-left: -929px;
-}
-.qarapiano07:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano08{
-    margin-left: -859px;
-}
-.qarapiano08:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano09{
-    margin-left: -823px;
-}
-.qarapiano09:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano10{
-    margin-left: -789px;
-}
-.qarapiano10:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano11{
-    margin-left: -718px;
-}
-.qarapiano11:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano12{
-    margin-left: -681px;
-}
-.qarapiano12:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano13{
-    margin-left: -612px;
-}
-.qarapiano13:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano14{
-    margin-left: -576px;
-}
-.qarapiano14:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano15{
-    margin-left: -540px;
-}
-.qarapiano15:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano16{
-    margin-left: -470px;
-}
-.qarapiano16:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano17{
-    margin-left: -435px;
-}
-.qarapiano17:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano18{
-    margin-left: -364px;
-}
-.qarapiano18:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano19{
-    margin-left: -328px;
-}
-.qarapiano19:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano20{
-    margin-left: -293px;
-}
-.qarapiano20:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano21{
-    margin-left: -221px;
-}
-.qarapiano21:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano22{
-    margin-left: -187px;
-}
-.qarapiano22:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano23{
-    margin-left: -116px;
-}
-.qarapiano23:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano24{
-    margin-left: -81px;
-}
-.qarapiano24:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
-}
-.qarapiano25{
-    margin-left: -44px;
-}
-.qarapiano25:active{
-    background: rgb(6, 129, 127); 
-    border-color: rgb(13, 240, 236);
 }
 #muellif{
     position: absolute;

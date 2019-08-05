@@ -442,4 +442,3 @@ const Q17 = new Audio ("../music/68440__pinkyfinger__piano-c.wav");
             if (keyCode === 190) return playQ17();
             
         })
-        
